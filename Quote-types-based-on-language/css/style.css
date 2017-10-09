@@ -1,0 +1,37 @@
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    display: inline;
+}
+
+:lang(en) q,
+ :lang(en) blockquote {
+    quotes: '*' '*';
+}
+
+:lang(en) q::before,
+ :lang(en) blockquote::before {
+    content: open-quote;
+}
+
+:lang(en) q::after,
+ :lang(en) blockquote::after {
+    content: close-quote;
+}
+
+:lang(pl) q,
+ :lang(pl) blockquote {
+    quotes: '“' '”';
+}
+
+:lang(pl) q::before,
+ :lang(pl) blockquote::before {
+    content: open-quote;
+}
+
+:lang(pl) q::after,
+ :lang(pl) blockquote::after {
+    content: close-quote;
+}

@@ -1,0 +1,9 @@
+.list .list-item {
+    list-style-type: none;
+}
+
+.list .list-item:before {
+    content: "\f0a4";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}

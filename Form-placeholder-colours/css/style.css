@@ -1,0 +1,13 @@
+.short-form input {
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.short-form input[type="text"]::-webkit-input-placeholder {
+    color: orange;
+}
+
+.short-form input[type="email"]::-webkit-input-placeholder {
+    color: blue;
+}

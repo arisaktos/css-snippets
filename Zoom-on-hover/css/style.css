@@ -1,0 +1,19 @@
+.main-button {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    border: 1px solid black;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.main-button img:hover {
+    transform: scale(1.3);
+}

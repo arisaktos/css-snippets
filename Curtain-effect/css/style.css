@@ -1,0 +1,46 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.moving-section {
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    height: 50vh;
+    width: 100%;
+}
+
+.top-section {
+    background-color: blue;
+    animation-name: go-down;
+}
+
+.bottom-section {
+    background-color: green;
+    animation-name: go-up;
+}
+
+@keyframes go-down {
+    0% {
+        transform: translate(0%, -100%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes go-up {
+    0% {
+        transform: translate(0%, 100%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}

@@ -1,0 +1,33 @@
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.first-container {
+    background-image: url(../img/cat-image-1.jpg);
+}
+
+.second-container {
+    background-image: url(../img/dog-image-2.jpg);
+}
+
+.third-container {
+    background-image: url(../img/bunny-photo-3.jpg);
+}
+
+.container-inner {
+    width: 100%;
+    background-color: orange;
+    padding: 30px;
+    height: 250px;
+}

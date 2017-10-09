@@ -1,0 +1,19 @@
+.special-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    border: 2px solid #c1309d;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    background-color: #ed68cc;
+    color: white;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.special-button:hover {
+    background-color: white;
+    color: #ed68cc;
+}

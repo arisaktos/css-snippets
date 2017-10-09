@@ -1,0 +1,5 @@
+.gradient {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(-90deg, red, violet, yellow, pink, orange);
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Paragraphs margin to fake more content on page */
+
+p {
+    margin-bottom: 100px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+#sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}

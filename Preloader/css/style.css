@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.preloader {
+    height: 100vh;
+    background-color: lightblue;
+    width: 100%;
+    position: relative;
+}
+
+.path {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.square {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+
+.square:nth-child(1) {
+    top: 0;
+    left: 0;
+    animation: preload-first 4s infinite;
+}
+
+.square:nth-child(2) {
+    bottom: 0;
+    right: 0;
+    animation: preload-second 4s infinite;
+}
+
+@keyframes preload-first {
+    0% {
+        top: 0;
+        left: 0;
+        transform: rotate(0deg) scale(1);
+    }
+    25% {
+        top: 125px;
+        left: 0;
+        transform: rotate(45deg) scale(1.5);
+    }
+    50% {
+        top: 125px;
+        left: 125px;
+        transform: rotate(90deg) scale(1);
+    }
+    75% {
+        top: 0px;
+        left: 125px;
+        transform: rotate(135deg) scale(1.5);
+    }
+    100% {
+        top: 0;
+        left: 0;
+        transform: rotate(180deg) scale(1);
+    }
+}
+
+@keyframes preload-second {
+    0% {
+        bottom: 0;
+        right: 0;
+        transform: rotate(0deg) scale(1);
+    }
+    25% {
+        bottom: 125px;
+        right: 0;
+        transform: rotate(45deg) scale(1.5);
+    }
+    50% {
+        bottom: 125px;
+        right: 125px;
+        transform: rotate(90deg) scale(1);
+    }
+    75% {
+        bottom: 0px;
+        right: 125px;
+        transform: rotate(135deg) scale(1.5);
+    }
+    100% {
+        bottom: 0;
+        right: 0;
+        transform: rotate(180deg) scale(1);
+    }
+}
